@@ -1,7 +1,7 @@
 ==== Lumières
-(Support des couleurs basique et buggé, doit être réécrit et documenté)
+Support des couleurs basique et buggé, doit être réécrit et documenté
 
-==== Prise
+==== Prises
 [options="header",cols=",^m,"]
 |===
 | Type générique | Obligatoire | Valeurs possibles 
@@ -12,6 +12,80 @@
 | Action/Prise Bouton Off | OUI | Référence vers l'Etat
 | Action/Prise Slider | NON Utilisé | N/A
 |===
-*NB :* la Référence vers l'état est primordiale (Select dans la première colonne de la commande)
+
+==== Volets
+[options="header",cols=",^m,"]
+|===
+| Type générique | Obligatoire | Valeurs possibles 
+| Info/Volet Etat | OUI | 0 = Fermé 
+
+>95 = Ouvert
+| Action/Volet Bouton Monter | NON Utilisé | N/A
+| Action/Volet Bouton Descendre | NON Utilisé | N/A
+| Action/Volet Bouton Stop | NON Utilisé | N/A
+| Action/Volet Bouton Slider | OUI | Référence vers l'Etat
+|===
+
+==== Volets BSO
+Pas encore supportés
+
+==== Chauffage fil pilote
+Pas encore supporté
+
+==== Serrures
+[options="header",cols=",^m,"]
+|===
+| Type générique | Obligatoire | Valeurs possibles 
+| Info/Serrure Etat | OUI | pas 1 = Non Sécurisée 
+
+1 = Sécurisée
+| Action/Serrure Bouton Ouvrir | OUI | Référence vers l'Etat
+| Action/Serrure Bouton Fermer | OUI | Référence vers l'Etat
+|===
+
+==== Sirènes
+N'existe pas en HomeKit
+
+==== Thermostats
+Support basique, aucune configuration
+
+==== Cameras
+Support par "Plateforme Homebridge supplémentaire"
+
+==== Modes
+N'existe pas en HomeKit
+
+==== Alarmes
+Support en lecture d'état, changement d'état à venir
+
+==== Météo
+Pas encore supporté (certains éléments existent en HomeKit mais pas tous)
+
+==== Portails ou Garages
+[options="header",cols=",^m,"]
+|===
+| Type générique | Obligatoire | Valeurs possibles 
+| Info/Portail état ouvrant
+
+Info/Garage état ouvrant
+
+(même traitement)| OUI | 0 = Fermé 
+
+252 = Fermeture en cours
+
+253 = Stoppé
+
+254 = Ouverture en cours
+
+255 = Ouvert
+| Action/Portail ou garage bouton toggle | OUI | Référence vers l'Etat
+| Action/Portail ou garage bouton d'ouverture | NON Utilisé | N/A
+| Action/Portail ou garage bouton de fermeture | NON Utilisé | N/A
+|===
+
+
+
+
+*NB :* les Références vers l'état dans les actions est primordiale !! sinon pas de lien entre l'état et ses actions possible
 
 image::images/reference-etat.png[]
