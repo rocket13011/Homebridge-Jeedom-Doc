@@ -30,7 +30,7 @@ Support des couleurs basique et buggé, doit être réécrit et documenté
 Pas encore supportés
 
 ==== Chauffage fil pilote
-Pas encore supporté
+N'existe pas en HomeKit
 
 ==== Serrures
 [options="header",cols=",^m,"]
