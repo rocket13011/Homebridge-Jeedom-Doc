@@ -32,4 +32,4 @@ image::images/dépendances-homebridge.png[]
 
 Une fois les dépendances installées, le démon se lance. Si le statut n'est pas sur "OK", cliquez sur "redémarrer"
 
-image::images/démon-homebridge.png[]
+image::images/démon-homebridge.png[]
