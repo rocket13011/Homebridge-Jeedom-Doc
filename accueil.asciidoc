@@ -28,7 +28,7 @@ Dans la configuration du plugin mobile, assurez vous d'avoir la dernière versio
 
 *Le temps d'installation des dépendances peut varié en fonction du matériel utilisé.*
 
-image::images/dépendances-homebridge.png[]
+image::images/dépendances-homebridge.png[]
 
 Une fois les dépendances installées, le démon se lance. Si le statut n'est pas sur "OK", cliquez sur "redémarrer"
 
