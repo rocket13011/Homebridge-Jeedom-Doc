@@ -111,7 +111,9 @@ pas 0 = OUI
 
 1 = fuite détectée
 | Info/Humidité | NON | %
-| Info/Porte ou Fenêtre
+| Info/Porte
+
+Info/Fenêtre
 
 (même traitement)| NON | pas 1 = Contact
 
