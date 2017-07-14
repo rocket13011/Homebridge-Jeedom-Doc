@@ -44,7 +44,7 @@ image::images/ypegelumi.png[]
 
 === Types génériques compatible avec Homebridge
 
-include::compatiblegenerics.asciidoc[]
+include::configurationHomebridgeTypeGenerique.asciidoc[]
 
 === Configuration du plugin mobile
 
