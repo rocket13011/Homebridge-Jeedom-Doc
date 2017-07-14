@@ -83,9 +83,60 @@ Info/Garage état ouvrant
 | Action/Portail ou garage bouton de fermeture | NON Utilisé | N/A
 |===
 
+==== Generic
+[options="header",cols=",^m,"]
+|===
+| Type générique | Obligatoire | Valeurs possibles 
+| Info/Puissance Electrique | NON | Watts
+| Info/Consommation Electrique
+
+(cachée)| NON | KWh
+| Info/Température | NON | -50->100 °C 
+| Info/Luminosité | NON | 0.0001-> 100000 lux
+| Info/Présence | NON | 0 = Pas de mouvement
+
+1 = Mouvement
+| Info/Batterie
+
+(caché)| NON | %
+| Info/Batterie en charge
+
+(caché, à venir)| NON | 0 = NON
+
+pas 0 = OUI
+| Info/Détection de fumée | NON | pas 1 = Pas de fumée détectée
+
+1 = fumée détectée
+| Info/Inondation | NON | pas 1 = Pas de fuite détectée
+
+1 = fuite détectée
+| Info/Humidité | NON | %
+| Info/Porte ou Fenêtre
+
+(même traitement)| NON | pas 1 = Contact
+
+1 = Pas de contact
+| Info/Sabotage 
+
+(à venir)| NON | 0 = Pas de sabotage
+
+pas 0 = Sabotage
+| Info/Choc 
+
+(N'existe pas en HomeKit)| NON | N/A
+| Info/Générique 
+
+(N'existe pas en HomeKit)| NON | N/A
+| Action/Générique 
+
+(N'existe pas en HomeKit)| NON | N/A
+
+|===
 
 
-
-*NB :* les Références vers l'état dans les actions est primordiale !! sinon pas de lien entre l'état et ses actions possible
+[quote]
+____
+Les références vers l'état dans les actions est primordiale !! sinon pas de lien entre l'état et ses actions possible.
+____
 
 image::images/reference-etat.png[]
