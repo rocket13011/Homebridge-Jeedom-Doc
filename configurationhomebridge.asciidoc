@@ -57,7 +57,7 @@ image::images/config-pluginhb.png[]
 * *Nom Homebridge* : Permet de renommer votre pont Homebridge. 
 
 [IMPORTANT]
-*ATTENTION : Le changement de nom Homebridge vous obligera à reconfigurer vos applications Homekit*
+Le changement de nom Homebridge vous obligera à reconfigurer vos applications Homekit
 
 * *PIN Homebridge* : Permet de personnaliser le code PIN Homebridge.
 
@@ -71,7 +71,7 @@ Il faut retirer le bridge de votre application "Maison" avant et l'y remettre en
 
 * *Plateforme Homebridge supplémentaire* : Permet de rajouter manuellement un équipement.
 [IMPORTANT]
-(réservé à un public averti). ATTENTION : Il n'y aura aucun support pour cette partie
+Réservé à un public averti. Il n'y aura aucun support pour cette partie.
 
 Une fois les cases *Utilisateur, nom Homebridge et PIN Homebridge* correctement renseignées finaliser la configuration en cliquant sur **sauvegarder**.
 
