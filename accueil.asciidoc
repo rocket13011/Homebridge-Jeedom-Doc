@@ -1,0 +1,35 @@
+= Homebridge
+
+Afin d'utiliser homebridge, vous devez déclarer au moins un équipement sous iOS, vous verrez dans la configuration du plugin une section Homebridge.
+(*Plugins* --> *Gestion des plugins* --> *App Mobile*)
+
+image::images/appareil-ios.png[]
+
+*Système compatible avec homebridge :*
+
+* Raspberry PI2 et PI3
+
+* Box jeedom Mini +
+
+* Box jeedom pro
+
+* Box jeedom smart
+
+* Box jeedom pro V2
+
+* Tout système basé sur débian 8
+
+*Note : Les installations sous docker et PI1 ne sont pas compatibles avec cette version de Homebridge.*
+
+
+== Configuration de Homebridge
+
+Dans la configuration du plugin mobile, assurez vous d'avoir la dernière version des dépendances. En cas de doute, vous pouvez toujours les réinstaller en cliquant sur "relancer". 
+
+*Le temps d'installation des dépendances peut varié en fonction du matériel utilisé.*
+
+image::images/dépendances-homebridge.png[]
+
+Une fois les dépendances installées, le démon se lance. Si le statut n'est pas sur "OK", cliquez sur "redémarrer"
+
+image::images/démon-homebridge.png[]
