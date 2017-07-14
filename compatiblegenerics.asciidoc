@@ -13,4 +13,5 @@
 | Action/Prise Slider | NON Utilisé | N/A
 |===
 *NB :* la Référence vers l'état est primordiale (Select dans la première colonne de la commande)
+
 image::images/reference-etat.png[]
