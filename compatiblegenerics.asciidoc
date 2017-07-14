@@ -138,5 +138,4 @@ pas 0 = Sabotage
 
 [IMPORTANT]
 Les références vers l'état dans les actions est primordiale !! sinon pas de lien entre l'état et ses actions possible.
-
 image::images/reference-etat.png[]
