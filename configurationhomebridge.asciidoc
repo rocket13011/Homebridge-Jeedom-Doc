@@ -1,0 +1,70 @@
+== Configuration de Homebridge
+
+=== Sélection des accessoires 
+
+Vous devez sélectionner les équipements que vous souhaitez utiliser avec Homebridge.
+
+*Configuration via les plugins*
+
+image::images/config-plugin.png[]
+
+*Configuration via les pièces / objets*
+
+image::images/config-piece.png[]
+
+Cliquez sur les plugins ou les pièces/objets où se trouvent les équipements que vous souhaitez ajouter.
+
+image::images/config-plugin-1.png[]
+
+Pour sélectionner les équipements que vous voulez  utiliser sur Homebridge, cochez la case "Envoyer à Homebridge".
+
+En cliquant sur l'équipement, vous verrez les types génériques utilisés pour la communication entre votre jeedom et Homebridge.
+
+image::images/typegen-1.png[]
+
+La majorité des types génériques seront déjà renseignées. Dans certain cas, vous devrez les rentrer manuellement. 
+
+Voici les types génériques disponibles : 
+
+Pour les informations : 
+
+image::images/typeginfo.png[]
+
+Pour les actions : 
+
+image::images/ypegeaction.png[]
+
+Chaque équipement doit disposer d'au moins un type générique de type "info". Si il n'y a pas d'info, l'équipement ne sera pas disponible sur Homebridge.
+
+Il faut une certaine cohérence dans le choix des types génériques. Dans le cas d'une lumière par exemple, vous devez avoir l'info "Lumière état" et les actions "Lumières bouton OFF" et "lumière bouton ON". Si cette cohérence n'est pas respectée, l'équipement peut ne pas apparaître dans Homebridge.
+
+
+image::images/ypegelumi.png[]
+
+=== Types génériques compatible avec Homebridge
+
+à venir
+
+=== Configuration du plugin mobile
+
+Une fois tous les objets configurés avec leurs bons types génériques, retournez dans *-> Equipement -> Configuration.*
+
+image::images/config-pluginhb.png[]
+
+* *Utilisateur* : Permet à Homebridge d'utiliser l'ApiKey d'un utilisateur de votre Jeedom.
+
+* *Nom Homebridge* : Permet de renommer votre pont Homebridge. 
+
+*ATTENTION : Le changement de nom Homebridge vous obligera à reconfigurer vos applications Homekit*
+
+* *PIN Homebridge* : Permet de personnaliser le code PIN Homebridge.
+
+* *Réparer* :  Permet une réparation de Homebridge en modifiant les identifiants.
+
+* *Réparer & réinstaller* : Supprime et réinstalle complètement Homebridge.
+
+* *Plateforme Homebridge supplémentaire* : Permet de rajouter manuellement un équipement. (réservé à un public averti). *ATTENTION : Il n'y aura aucun support pour cette partie*
+
+Une fois les cases *Utilisateur, nom Homebridge et PIN Homebridge* correctement renseignées finaliser la configuration en cliquant sur **sauvegarder**.
+
+*Note : Pour ajouter ou supprimer un accessoire dans Homebrige, sélectionnez l'accessoire en question dans Plugins ou Objet/pièces et cochez ou décochez "Envoyer à Homebridge". Retournez dans "Equipement" et cliquer sur sauvegarder. Il n'est pas nécessaire de modifier le nom ou le PIN Homebridge. Une fois sauvegardé, votre accessoire sera intégré ou supprimé de Homebridge.*
