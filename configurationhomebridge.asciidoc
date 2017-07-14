@@ -23,7 +23,7 @@ En cliquant sur l'équipement, vous verrez les types génériques utilisés pour
 
 image::images/typegen-1.png[]
 
-La majorité des types génériques seront déjà renseignées. Dans certain cas, vous devrez les rentrer manuellement. 
+La majorité des types génériques seront déjà renseignées. Dans certain cas, vous devrez les rentrer manuellement (plugin virtuel par exemple) 
 
 Voici les types génériques disponibles : 
 
@@ -35,7 +35,7 @@ Pour les actions :
 
 image::images/ypegeaction.png[]
 
-Chaque équipement doit disposer d'au moins un type générique de type "info". S'il n'y a pas d'info, l'équipement ne sera pas disponible sur Homebridge.
+*ATTENTION* Chaque équipement doit disposer d'au moins un type générique de type "info". S'il n'y a pas d'info, l'équipement ne sera pas disponible sur Homebridge.
 
 Il faut une certaine cohérence dans le choix des types génériques. Dans le cas d'une lumière par exemple, vous devez avoir l'info "Lumière état" et les actions "Lumières bouton OFF" et "Lumière bouton ON". Si cette cohérence n'est pas respectée, l'équipement peut ne pas apparaître dans Homebridge.
 
@@ -56,15 +56,22 @@ image::images/config-pluginhb.png[]
 
 * *Nom Homebridge* : Permet de renommer votre pont Homebridge. 
 
+[IMPORTANT]
 *ATTENTION : Le changement de nom Homebridge vous obligera à reconfigurer vos applications Homekit*
 
 * *PIN Homebridge* : Permet de personnaliser le code PIN Homebridge.
 
-* *Réparer* :  Permet une réparation de Homebridge en modifiant les identifiants.
+* *Réparer* :  Permet une réparation de Homebridge en modifiant les identifiants. 
+[IMPORTANT]
+Il faut retirer le bridge de votre application "Maison" avant et l'y remettre ensuite)
 
-* *Réparer & réinstaller* : Supprime et réinstalle complètement Homebridge.
+* *Réparer & réinstaller* : Supprime et réinstalle complètement Homebridge. 
+[IMPORTANT]
+Il faut retirer le bridge de votre application "Maison" avant et l'y remettre ensuite
 
-* *Plateforme Homebridge supplémentaire* : Permet de rajouter manuellement un équipement. (réservé à un public averti). *ATTENTION : Il n'y aura aucun support pour cette partie*
+* *Plateforme Homebridge supplémentaire* : Permet de rajouter manuellement un équipement.
+[IMPORTANT]
+(réservé à un public averti). ATTENTION : Il n'y aura aucun support pour cette partie
 
 Une fois les cases *Utilisateur, nom Homebridge et PIN Homebridge* correctement renseignées finaliser la configuration en cliquant sur **sauvegarder**.
 
