@@ -44,22 +44,7 @@ image::images/ypegelumi.png[]
 
 === Types génériques compatible avec Homebridge
 
-==== Lumières
-(Support des couleurs basique et buggé, doit être réécrit et documenté)
-
-==== Prise
-[options="header",cols=",^m,"]
-|===
-| Type générique | Obligatoire | Valeurs possibles 
-| Info/Prise Etat | OUI | 0 = Eteint 
-
-1 = Allumé
-| Action/Prise Bouton On | OUI | Référence vers l'Etat
-| Action/Prise Bouton Off | OUI | Référence vers l'Etat
-| Action/Prise Slider | NON Utilisé | N/A
-|===
-*NB :* la Référence vers l'état est primordiale (Select dans la première colonne de la commande)
-image::images/ReferenceEtat.PNG[]
+include::compatiblegenerics.asciidoc
 
 === Configuration du plugin mobile
 
