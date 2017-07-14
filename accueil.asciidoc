@@ -1,13 +1,13 @@
 = Homebridge
 
 Afin d'utiliser homebridge, vous devez déclarer au moins un équipement sous iOS, vous verrez dans la configuration du plugin une section Homebridge.
-(*Plugins* --> *Gestion des plugins* --> *App Mobile*)
+(*Plugins* -> *Gestion des plugins* -> *App Mobile*)
 
 image::images/appareil-ios.png[]
 
-*Système compatible avec homebridge :*
+*Systèmes compatibles avec homebridge :*
 
-* Raspberry PI2 et PI3
+* Raspberry PI2 et PI3 (3 conseillé)
 
 * Box jeedom Mini +
 
@@ -26,7 +26,7 @@ image::images/appareil-ios.png[]
 
 Dans la configuration du plugin mobile, assurez vous d'avoir la dernière version des dépendances. En cas de doute, vous pouvez toujours les réinstaller en cliquant sur "relancer". 
 
-*Le temps d'installation des dépendances peut varié en fonction du matériel utilisé.*
+*Le temps d'installation des dépendances peut varier en fonction du matériel utilisé.*
 
 image::images/dépendances-homebridge.png[]
 
