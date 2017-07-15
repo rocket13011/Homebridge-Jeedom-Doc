@@ -62,14 +62,17 @@ Le changement de nom Homebridge vous obligera à reconfigurer vos applications H
 * *PIN Homebridge* : Permet de personnaliser le code PIN Homebridge.
 
 * *Réparer* :  Permet une réparation de Homebridge en modifiant les identifiants. 
+
 [IMPORTANT]
 Il faut retirer le bridge de votre application "Maison" avant et l'y remettre ensuite.
 
 * *Réparer & réinstaller* : Supprime et réinstalle complètement Homebridge. 
+
 [IMPORTANT]
 Il faut retirer le bridge de votre application "Maison" avant et l'y remettre ensuite.
 
 * *Plateforme Homebridge supplémentaire* : Permet de rajouter manuellement un équipement.
+
 [IMPORTANT]
 Réservé à un public averti. Il n'y aura aucun support pour cette partie.
 
