@@ -24,7 +24,7 @@ En cliquant sur l'équipement, vous verrez les types génériques utilisés pour
 
 image::images/typegen-1.png[]
 
-La majorité des types génériques seront déjà renseignées. Dans certain cas, vous devrez les rentrer manuellement (plugin virtuel par exemple) 
+La majorité des types génériques est déjà renseignée. Dans certains cas, vous devrez les configurer manuellement (pour le plugin Virtuel par exemple).
 
 Voici les types génériques disponibles : 
 
@@ -42,7 +42,7 @@ Il faut une certaine cohérence dans le choix des types génériques. Dans le ca
 
 image::images/ypegelumi.png[]
 
-=== Types génériques compatible avec Homebridge
+=== Types génériques compatibles avec Homebridge
 
 include::configurationHomebridgeTypeGenerique.asciidoc[]
 
@@ -57,22 +57,22 @@ image::images/config-pluginhb.png[]
 * *Nom Homebridge* : Permet de renommer votre pont Homebridge. 
 
 [IMPORTANT]
-Le changement de nom Homebridge vous obligera à reconfigurer vos applications Homekit
+Le changement de nom Homebridge vous obligera à reconfigurer vos applications Homekit.
 
 * *PIN Homebridge* : Permet de personnaliser le code PIN Homebridge.
 
 * *Réparer* :  Permet une réparation de Homebridge en modifiant les identifiants. 
 [IMPORTANT]
-Il faut retirer le bridge de votre application "Maison" avant et l'y remettre ensuite)
+Il faut retirer le bridge de votre application "Maison" avant et l'y remettre ensuite.
 
 * *Réparer & réinstaller* : Supprime et réinstalle complètement Homebridge. 
 [IMPORTANT]
-Il faut retirer le bridge de votre application "Maison" avant et l'y remettre ensuite
+Il faut retirer le bridge de votre application "Maison" avant et l'y remettre ensuite.
 
 * *Plateforme Homebridge supplémentaire* : Permet de rajouter manuellement un équipement.
 [IMPORTANT]
 Réservé à un public averti. Il n'y aura aucun support pour cette partie.
 
-Une fois les cases *Utilisateur, nom Homebridge et PIN Homebridge* correctement renseignées finaliser la configuration en cliquant sur **sauvegarder**.
+Une fois les cases *Utilisateur, nom Homebridge et PIN Homebridge* correctement renseignées, finaliser la configuration en cliquant sur **sauvegarder**.
 
 
