@@ -1,5 +1,36 @@
 == Aide Homebridge
 
--> J'ai mon Homebridge qui n'execute pas les commandes !
+*-> Je n'arrive pas à inclure jeedom dans homekit !*
 
-TIP: il faut bien mettre a jour le plugin App Mobile, puis dans la configuration des dépendances, il suffit de renseigner un utilisateur avec des droits d'executions sur les commandes.
+TIP: Vérifier que le statut du démon Homebridge est sur OK.
+
+image::images/demonHB.png[]
+
+TIP: Pour inclure votre jeedom dans homekit, via une application compatible (par exemple Domicile ou Eve), vérifiez que appareil IOS est connecté au même réseau que votre jeedom.
+
+
+TIP: Si votre jeedom est toujours introuvable sur votre appareil IOS, tentez une réparation en cliquant sur "réparer" ou "réparer & réinstaller".
+
+image::images/config-pluginhb.png[]
+
+*-> Le démon Homebridge ne veut pas démarrer !*
+
+TIP: Vérifiez que vous disposez de la dernière version des dépendances. En cas de doute, il est possible de les réinstaller en cliquant sur "relancer".
+
+image::images/dépendances-homebridge.png[]
+
+*-> Mon équipement n'apparait pas dans homebridge !*
+
+TIP: Vérifiez que la case "envoyer à Homebridge" soit cochée dans la configuration du plugin mobile.
+
+*-> La case "envoyer à homebridge est bien cochée" mais mon équipement n'apparait toujours pas !*
+
+TIP: Vérifiez dans la configuration de votre équipement que la case "visible" soit cochée.
+
+TIP: Vérifiez que les types génériques soient bien configurés. Chaque équipement envoyé à homebridge doit au moins avoir un type générique "info".
+
+image::images/config-plugin-1.png[]
+
+*-> J'ai mon Homebridge qui n'execute pas les commandes !*
+
+TIP: Il faut bien mettre a jour le plugin App Mobile, puis dans la configuration des dépendances, il suffit de renseigner un utilisateur avec des droits d'executions sur les commandes.
