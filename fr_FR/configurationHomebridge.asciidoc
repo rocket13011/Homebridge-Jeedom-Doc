@@ -16,7 +16,7 @@ image::../images/config-plugin-1.png[]
 
 Pour sélectionner les équipements que vous voulez utiliser sur Homebridge, cochez la case "Envoyer à Homebridge".
 [TIP]
-Pour ajouter ou supprimer un accessoire dans Homebrige, sélectionnez l'accessoire en question dans Plugins ou Objet/pièces et cochez ou décochez "Envoyer à Homebridge". Retournez dans "Equipement" et cliquez sur sauvegarder. Il n'est pas nécessaire de modifier le nom ou le PIN Homebridge. Une fois sauvegardé (et le démon relancé), votre accessoire sera intégré ou supprimé de Homebridge.*
+Pour ajouter ou supprimer un accessoire dans Homebrige, sélectionnez l'accessoire en question dans Plugins ou Objet/pièces et cochez ou décochez "Envoyer à Homebridge". Retournez dans "Equipement" et cliquez sur sauvegarder. Une fois sauvegardé (et le démon relancé), votre accessoire sera intégré ou supprimé de Homebridge.*
 
 En cliquant sur l'équipement, vous verrez les types génériques utilisés pour la communication entre votre jeedom et Homebridge.
 
