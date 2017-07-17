@@ -14,7 +14,11 @@ include::accueil.asciidoc[]
 
 include::configurationHomebridge.asciidoc[]
 
+== Troubleshooting
+
 include::TroubleshootingMobile.asciidoc[]
+
+== Changelog
 
 include::../changelog.asciidoc[]
 
