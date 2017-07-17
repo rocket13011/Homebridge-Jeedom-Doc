@@ -10,6 +10,8 @@ include::configurationTypeGenerique.asciidoc[]
 
 = Homebridge
 
+include::presentationHomebridge.asciidoc[]
+
 include::accueil.asciidoc[]
 
 include::configurationHomebridge.asciidoc[]
