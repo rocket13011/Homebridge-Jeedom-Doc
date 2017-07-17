@@ -40,4 +40,4 @@ image::images/mobile11.png[]
 
 En cliquant sur une pièce, vous pouvez l'autoriser ou non à être présente dans l'application mobile, et configurer chacun des types génériques associés à ses commandes.
 
-image::../images/mobile12.png[]
+image::images/mobile12.png[]
