@@ -25,7 +25,7 @@ TIP: Vérifiez que la case "envoyer à Homebridge" soit cochée dans la configur
 
 TIP: Vérifiez dans la configuration de votre équipement que celui-ci soit activé et visible.
 
-TIP: Vérifiez que les types génériques soient bien configurés. Chaque équipement envoyé à homebridge doit au moins avoir un type générique "info".
+TIP: Vérifiez que les types génériques soient bien configurés et que la commande ou l'info soit visible. Chaque équipement envoyé à homebridge doit au moins avoir un type générique "Etat".
 
 image::../images/ypegelumi.png[]
 
@@ -46,4 +46,5 @@ image::../images/sans-reponse.jpg[]
 3. Relancez votre box
 4. Si malgré tout vous avez toujours ces états, lancez une réparation.
 
+TIP: Beaucoup d'informations se trouvent dans les logs, le prochain chapitre vous expliquera comment les analyser
 include::logHomebridge.asciidoc[]
