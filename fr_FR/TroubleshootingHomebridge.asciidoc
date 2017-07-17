@@ -41,8 +41,10 @@ TIP: Vérifiez que les types génériques soient bien configurés. Il doit avoir
 
 image::../images/sans-reponse.jpg[]
 
-TIP: Si vous n'avez pas de concentrateur Homekit (iPad ou Apple TV) vérifiez que vous êtes connectés dans le même réseau que votre jeedom.
-
-TIP: Vérifiez que le démon est activé. Si ce n'est pas le cas, redémarrez le.
+[TIP]
+1. Si vous n'avez pas de concentrateur Homekit (iPad ou Apple TV) vérifiez que vous êtes connectés dans le même réseau que votre jeedom.
+2. Vérifiez que le démon est activé. Si ce n'est pas le cas, redémarrez le.
+3. Relancez votre box
+4. Si malgré tout vous avez toujours ces états, lancez une réparation.
 
 include::logHomebridge.asciidoc[]
