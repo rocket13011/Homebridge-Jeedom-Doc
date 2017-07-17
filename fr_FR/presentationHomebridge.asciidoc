@@ -4,7 +4,7 @@
 
 *Homebridge* est un demon inclu avec le plugin Mobile qui permet d’interagir avec votre domotique via l’assistant vocal Siri sous iOS. Le HomeKit a été introduit depuis iOS 8, mais est véritablement opérationnel depuis iOS 10 via l’application Home. 
 
-image::images/homekit-logo.jpg[]
+image::../images/homekit-logo.jpg[]
 
 Le plugin Homebridge de jeedom permet donc d’exposer des équipements jeedom qui seront vus comme des accessoires compatibles au protocole *HomeKit*.
 
@@ -17,24 +17,24 @@ Homebridge peut s'utiliser avec une application compatible Homekit ou avec l'ass
 
 Depuis IOS10, l'application Domicile (inclue par défaut avec IOS) permet le pilotage d'équipement compatible Homekit. 
 
-image::images/cuisine-homekit.jpg[]
+image::../images/cuisine-homekit.jpg[]
 
 Les équipements peuvent être classés par pièce.
 
-image::images/piece-homekit.jpg[]
+image::../images/piece-homekit.jpg[]
 
 Un bon nombre d'accessoires sont pris en charge.
 
-image::images/garage-homekit.png[]
+image::../images/garage-homekit.png[]
 
 Siri peut aussi interagir. Vous pouvez lui poser des questions : 
 
 
-image::images/siri-01.jpg[]
+image::../images/siri-01.jpg[]
 
 Siri peut également faire des actions : 
 
-image::images/siri-02.jpg[]
+image::../images/siri-02.jpg[]
 
 Homekit à l'avantage d'être utilisable à l'extérieur du domicile. Seule condition, il faut disposer d'un concentrateur. 
 L'iPad et l'AppleTV (et bientot le HomePod) peuvent servir de concentrateur. Pour cela, ils doivent être connectés au même compte iCloud.
