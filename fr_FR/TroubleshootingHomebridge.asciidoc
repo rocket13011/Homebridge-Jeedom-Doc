@@ -47,4 +47,5 @@ image::../images/sans-reponse.jpg[]
 4. Si malgré tout vous avez toujours ces états, lancez une réparation.
 
 TIP: Beaucoup d'informations se trouvent dans les logs, le prochain chapitre vous expliquera comment les analyser
+
 include::logHomebridge.asciidoc[]

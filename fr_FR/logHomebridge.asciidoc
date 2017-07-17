@@ -57,3 +57,12 @@ L'accessoire "test 3.1" est visible et la case "Envoyer vers Homebridge" est coc
 
 [TIP]
 Il y a une incohérence entre les types génériques. Les types "actions" ne correpondent pas au type "info". Pour corriger le problème, modifiez les types génriques de l'accessoire en gardant une cohérence entres les types actions et info.
+
+[source,]
+----
+sh: 1: homebridge: not found
+----
+[TIP]
+Les dépendances homebridge ne sont pas installées ou certains fichiers sont manquants. Cliquez sur relancer.
+
+image::images/dépendances-homebridge.png[]
