@@ -79,4 +79,34 @@ Réservé à un public averti. Il n'y aura aucun support pour cette partie.
 
 Une fois les cases *Utilisateur, nom Homebridge et PIN Homebridge* correctement renseignées, finaliser la configuration en cliquant sur **sauvegarder**.
 
+=== Ajout de jeedom dans homekit
 
+Il existe plusieurs applications sur l'appstore compatible homekit. Nous allons utiliser l'application "domicile".
+
+
+
+Pour inclure jeedom, ouvrir l'application "Maison" et cliquez sur ajouter un accessoire.
+
+image::images/home-1.jpg[]
+
+Scannez le code PIN 
+
+image::images/home-2.jpg[]
+
+Sélectionnez votre jeedom
+
+image::images/home-3.jpg[]
+
+[IMPORTANT]
+L'exemple a été réalisée avec la version beta d'IOS 11. Sur IOS 10 la procécure est quasi identique. Il suffit de sélectionner votre jeedom et de scanner le PIN.
+
+image::images/home-4.jpg[]
+
+[IMPORTANT]
+Comme expliquez plus haut dans la doc, Homebridge n'est pas reconnu officiellement par Apple. Un message vous indique que l'accessoire n'est pas cetifié.  Cliquez sur "poursuivre l'ajout".
+
+image::images/home-5.jpg[]
+
+Il suffit maintenant de placer correctement les accessoires dans les bonnes pièces. Vous avez la possibilité de le créer en cliquant sur pièce et créer pièce.
+
+Vous pouvez retrouver https://support.apple.com/fr-fr/HT204893[ici] la documentation complète de l'application "Maison" d'Apple.
