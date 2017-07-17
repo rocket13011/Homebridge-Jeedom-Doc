@@ -1,5 +1,3 @@
-= Homebridge
-
 Afin d'utiliser homebridge, vous devez déclarer au moins un équipement sous iOS, vous verrez dans la configuration du plugin une section Homebridge.
 (*Plugins* -> *Gestion des plugins* -> *App Mobile*)
 
