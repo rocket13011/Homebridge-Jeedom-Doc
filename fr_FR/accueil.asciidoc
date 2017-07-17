@@ -3,7 +3,7 @@
 Afin d'utiliser homebridge, vous devez déclarer au moins un équipement sous iOS, vous verrez dans la configuration du plugin une section Homebridge.
 (*Plugins* -> *Gestion des plugins* -> *App Mobile*)
 
-image::images/appareil-ios.png[]
+image::../images/appareil-ios.png[]
 
 *Systèmes compatibles avec homebridge :*
 
@@ -28,8 +28,8 @@ Dans la configuration du plugin mobile, assurez vous d'avoir la dernière versio
 
 *Le temps d'installation des dépendances peut varier en fonction du matériel utilisé.*
 
-image::images/dépendances-homebridge.png[]
+image::../images/dépendances-homebridge.png[]
 
 Une fois les dépendances installées, le démon se lance. Si le statut n'est pas sur "OK", cliquez sur "redémarrer".
 
-image::images/démon-homebridge.png[]
+image::../images/démon-homebridge.png[]
