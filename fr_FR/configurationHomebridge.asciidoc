@@ -60,7 +60,6 @@ Le changement de nom Homebridge vous obligera à reconfigurer vos applications H
 * *PIN Homebridge* : Permet de personnaliser le code PIN Homebridge.
 
 [IMPORTANT]
-
 Les PIN suivants ne sont pas accéptés par Apple : 000-00-000, 111-11-111, 222-22-222 -> 999-99-999, 123-45-678, 876-54-321
 
 * *Réparer* :  Permet une réparation de Homebridge en modifiant les identifiants. 
@@ -71,7 +70,7 @@ Il faut retirer le bridge de votre application "Maison" avant et l'y remettre en
 * *Réparer & réinstaller* : Supprime et réinstalle complètement Homebridge. 
 
 [IMPORTANT]
-Il faut retirer le bridge de votre application "Maison" avant et l'y remettre ensuite.
+Sur conseil d'un membre du forum et il faut retirer le bridge de votre application "Maison" avant et l'y remettre ensuite.
 
 * *Plateforme Homebridge supplémentaire* : Permet de rajouter manuellement un équipement.
 
