@@ -45,6 +45,4 @@ TIP: Si vous n'avez pas de concentrateur Homekit (iPad ou Apple TV) vérifiez qu
 
 TIP: Vérifiez que le démon est activé. Si ce n'est pas le cas, redémarrez le.
 
-== Interprétation des fichiers LOGS
-
 include::logHomebridge.asciidoc[]
