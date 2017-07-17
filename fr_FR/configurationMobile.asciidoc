@@ -4,11 +4,11 @@ Vous trouverez les applications sur les stores mobiles :
 
 *Android Google Play*
 
-image:images/Google_Play_FR.png[link="https://play.google.com/store/apps/details?id=fr.jeedom.jeedom"]
+image:../images/Google_Play_FR.png[link="https://play.google.com/store/apps/details?id=fr.jeedom.jeedom"]
 
 *Apple App Store*
 
-image:images/App_Store_FR.png[link="https://itunes.apple.com/fr/app/jeedom/id1010855094?mt=8"]
+image:../images/App_Store_FR.png[link="https://itunes.apple.com/fr/app/jeedom/id1010855094?mt=8"]
 
 === Premier lancement de l'app
 
@@ -34,29 +34,29 @@ Voici donc la marche à suivre pour en créer :
 
 Cliquez sur un des + sur l'écran d'accueil de l'application :
 
-image:images/mobile_dashboard_1.PNG[align="center",width="200px"]
+image:../images/mobile_dashboard_1.PNG[align="center",width="200px"]
 
 Vous arriverez sur la page de sélection du type de raccourci :
 
-image:images/mobile_dashboard_2.PNG[align="center",width="200px"]
+image:../images/mobile_dashboard_2.PNG[align="center",width="200px"]
 
 Par exemple, nous allons prendre Action, il nous propose donc des Pièces/Objets :
 
-image:images/mobile_dashboard_3.PNG[align="center",width="200px"]
+image:../images/mobile_dashboard_3.PNG[align="center",width="200px"]
 
 Il vous suffit alors de sélectionner l'action que vous souhaitez en raccourci :
 
-image:images/mobile_dashboard_4.PNG[align="center",width="200px"]
+image:../images/mobile_dashboard_4.PNG[align="center",width="200px"]
 
 Il est ensuite possible de personnaliser la couleur de celle-ci (pour le moment trois couleurs sont proposées) :
 
-image:images/mobile_dashboard_5.PNG[align="center",width="200px"]
+image:../images/mobile_dashboard_5.PNG[align="center",width="200px"]
 
 Ainsi que les deux textes associés :
 
-image:images/mobile_dashboard_6.PNG[align="center",width="200px"]
-image:images/mobile_dashboard_7.PNG[align="center",width="200px"]
+image:../images/mobile_dashboard_6.PNG[align="center",width="200px"]
+image:../images/mobile_dashboard_7.PNG[align="center",width="200px"]
 
 Voilà, vous avez maitenant un raccourci de votre commande (dans la version 1.1 il est prévu que les commandes On/Off apparaissent sur la même touche).
 
-image:images/mobile_dashboard_8.PNG[align="center",width="200px"]
+image:../images/mobile_dashboard_8.PNG[align="center",width="200px"]
