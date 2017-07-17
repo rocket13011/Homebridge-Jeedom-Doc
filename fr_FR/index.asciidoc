@@ -20,6 +20,8 @@ include::configurationHomebridge.asciidoc[]
 
 include::TroubleshootingMobile.asciidoc[]
 
+include::TroubleshootingHomebridge.asciidoc[]
+
 = Changelog
 
 include::../changelog.asciidoc[]
