@@ -4,18 +4,18 @@
 
 TIP: Vérifier que le statut du démon Homebridge est sur OK.
 
-image::images/demonHB.png[]
+image::../images/demonHB.png[]
 
 TIP: Pour inclure votre jeedom dans homekit, via une application compatible (par exemple Domicile ou Eve), vérifiez que appareil IOS est connecté au même réseau que votre jeedom.
 
 
-image::images/config-pluginhb.png[]
+image::../images/config-pluginhb.png[]
 
 *-> Le démon Homebridge ne veut pas démarrer !*
 
 TIP: Vérifiez que vous disposez de la dernière version des dépendances. En cas de doute, il est possible de les réinstaller en cliquant sur "relancer".
 
-image::images/dépendances-homebridge.png[]
+image::../images/dépendances-homebridge.png[]
 
 *-> Mon équipement n'apparait pas dans homebridge !*
 
@@ -25,9 +25,9 @@ TIP: Vérifiez que la case "envoyer à Homebridge" soit cochée dans la configur
 
 TIP: Vérifiez dans la configuration de votre équipement que celui-ci soit activé et visible.
 
-TIP: Vérifiez que les types génériques soient bien configurés. Chaque équipement envoyé à homebridge doit au moins avoir un type générique "info".
+TIP: Vérifiez que les types génériques soient bien configurés et que la commande ou l'info soit visible. Chaque équipement envoyé à homebridge doit au moins avoir un type générique "Etat".
 
-image::images/ypegelumi.png[]
+image::../images/ypegelumi.png[]
 
 *-> J'ai mon Homebridge qui n'exécute pas les commandes !*
 
@@ -39,10 +39,12 @@ TIP: Vérifiez que les types génériques soient bien configurés. Il doit avoir
 
 *-> Le message "sans réponse" apparait dans l'app domicile ou Eve*
 
-image::images/sans-reponse.jpg[]
+image::../images/sans-reponse.jpg[]
 
-TIP: Si vous n'avez pas de concentrateur Homekit (iPad ou Apple TV) vérifiez que vous êtes connectés dans le même réseau que votre jeedom.
+1. Si vous n'avez pas de concentrateur Homekit (iPad ou Apple TV) vérifiez que vous êtes connectés dans le même réseau que votre jeedom. 
+2. Vérifiez que le démon est activé. Si ce n'est pas le cas, redémarrez le.
+3. Relancez votre box
+4. Si malgré tout vous avez toujours ces états, lancez une réparation.
 
-TIP: Vérifiez que le démon est activé. Si ce n'est pas le cas, redémarrez le.
-
-== Interprétation des fichiers LOGS
+TIP: Beaucoup d'informations se trouvent dans les logs, le prochain chapitre vous expliquera comment les analyser
+include::logHomebridge.asciidoc[]
