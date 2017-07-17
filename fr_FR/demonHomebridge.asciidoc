@@ -1,3 +1,5 @@
+== Prérequis
+
 Afin d'utiliser homebridge, vous devez déclarer au moins un équipement sous iOS, vous verrez dans la configuration du plugin une section Homebridge.
 (*Plugins* -> *Gestion des plugins* -> *App Mobile*)
 
@@ -17,8 +19,8 @@ image::../images/appareil-ios.png[]
 
 * Tout système basé sur débian 8
 
-*Note : Les installations sous Docker et Raspberry Pi 1 ne sont pas compatibles avec cette version de Homebridge.*
-
+[IMPORTANT]
+*Les installations sous Docker et Raspberry Pi 1 ne sont pas compatibles avec cette version de Homebridge.*
 
 == Configuration de Homebridge
 
