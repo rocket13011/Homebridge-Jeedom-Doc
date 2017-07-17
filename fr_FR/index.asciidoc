@@ -22,8 +22,6 @@ include::TroubleshootingMobile.asciidoc[]
 
 include::TroubleshootingHomebridge.asciidoc[]
 
-= Changelog
-
 include::../changelog.asciidoc[]
 
 En savoir plus sur l'avancement de l'application Mobile cliquez-ici > https://github.com/jeedom/issues/projects/2?fullscreen=true
