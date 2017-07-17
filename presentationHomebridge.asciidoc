@@ -2,7 +2,7 @@
 
 == Présentation Homebridge
 
-Déjà pour commencer le  Homebridge* est un demon inclu avec le plugin Mobile qui permet d’interagir avec sa domotique via l’assistant vocal Siri sous iOS avec des modules supportant HomeKit. Le HomeKit a été introduit depuis iOS 8, mais est véritablement opérationnel depuis iOS 10 via l’application Home. 
+Le Homebridge* est un demon inclu avec le plugin Mobile qui permet d’interagir avec sa domotique via l’assistant vocal Siri sous iOS avec des modules supportant HomeKit. Le HomeKit a été introduit depuis iOS 8, mais est véritablement opérationnel depuis iOS 10 via l’application Home. 
 
 image::images/homekit-logo.jpg[]
 
