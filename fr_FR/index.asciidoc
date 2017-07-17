@@ -8,17 +8,17 @@ include::configurationMobile.asciidoc[]
 
 include::configurationTypeGenerique.asciidoc[]
 
-== Homebridge
+= Homebridge
 
 include::accueil.asciidoc[]
 
 include::configurationHomebridge.asciidoc[]
 
-== Troubleshooting
+= Troubleshooting
 
 include::TroubleshootingMobile.asciidoc[]
 
-== Changelog
+= Changelog
 
 include::../changelog.asciidoc[]
 
