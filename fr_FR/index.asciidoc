@@ -12,7 +12,7 @@ include::configurationTypeGenerique.asciidoc[]
 
 include::presentationHomebridge.asciidoc[]
 
-include::accueil.asciidoc[]
+include::demonHomebridge.asciidoc[]
 
 include::configurationHomebridge.asciidoc[]
 
