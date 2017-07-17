@@ -1,5 +1,3 @@
-== Configuration de Homebridge
-
 === Sélection des accessoires 
 
 Vous devez sélectionner les équipements que vous souhaitez utiliser avec Homebridge.
