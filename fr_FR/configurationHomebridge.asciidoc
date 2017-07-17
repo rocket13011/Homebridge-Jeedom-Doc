@@ -70,7 +70,7 @@ Il faut retirer le bridge de votre application "Maison" avant et l'y remettre en
 * *Réparer & réinstaller* : Supprime et réinstalle complètement Homebridge. 
 
 [IMPORTANT]
-Sur conseil d'un membre du forum et il faut retirer le bridge de votre application "Maison" avant et l'y remettre ensuite.
+A n'effectuer que sur conseil d'un membre du forum et il faut retirer le bridge de votre application "Maison" avant et l'y remettre ensuite.
 
 * *Plateforme Homebridge supplémentaire* : Permet de rajouter manuellement un équipement.
 
