@@ -2,7 +2,60 @@
 
 == Mobile
 
-=== TO ADD
+=== v1.2.0
+   * Ajout des designs
+   * Ajout des notifications simple
+   * Ajout des garages et portail
+   * Multi-BugFix
+   * Amélioration de la stabilité et de la fluidité
+   * BugFix TouchID
+
+=== v1.1.1
+   * Amélioration de la stabilité et de la fluidité
+   * Refonte Global des vues
+   * BugFix TouchID empechant la synchronisation auto
+   * Nouvelle notification interne
+   * Les pièces ne remonte plus après un retour dessus
+   * BugFix température tronqué dans les favoris
+   * BugFix Couleur RGB
+   * BugFix QRCode
+   * BugFix barre d'etat IOS
+   * BugFix menu hamburger
+   
+=== v1.1.0
+   * Ajout des raccourcis et favoris de type actionneur
+   * Ajout du type information pour les raccourcis et favoris
+   * Plugin officiel Mode
+   * Modification de la synchro d'entrée
+   * Pièce en mode carré
+   * Ajout message et mises à jours Dispo
+   * Fix sur multiprises
+   * Fix serrure inversée
+   * Fix stop sur les stores
+   * Fix réinitialisation de l'app
+
+=== v1.0.2
+   * Mise en place du mot "Objets"
+   * Fix Multi-Bug
+   * Fix Lumière et Prise
+   * Ajout de la confirmation d'action
+   * Ajout du mot de passe sur une action
+   * Ajout Lumière par Toggle
+   * Fix volet roulant
+   
+=== v1.0.1
+   * Fix du bug Pièces (Icones)
+   * Ajout Générique Info
+   * Ajout Générique Action
+   * Corrections mineures
+   * Corrections orthographiques
+   * Fix Scénario Favoris
+   * Fix Suppression de Scénario
+   * Fix Generic
+   * Nouveau procédé de Log, pour l’aide au résolution de problème.
+   
+=== v1.0.0
+   *Début de l'application mobile
 
 === Homebridge
 
