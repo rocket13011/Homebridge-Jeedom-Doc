@@ -16,7 +16,7 @@ image::../images/config-plugin-1.png[]
 
 Pour sélectionner les équipements que vous voulez utiliser sur Homebridge, cochez la case "Envoyer à Homebridge".
 [TIP]
-Pour ajouter ou supprimer un accessoire dans Homebrige, sélectionnez l'accessoire en question dans Plugins ou Objet/pièces et cochez ou décochez "Envoyer à Homebridge". Retournez dans "Equipement" et cliquez sur sauvegarder. Une fois sauvegardé (et le démon relancé), votre accessoire sera intégré ou supprimé de Homebridge.*
+Pour ajouter ou supprimer un accessoire dans Homebrige, sélectionnez l'accessoire en question dans Plugins ou Objet/pièces et cochez ou décochez "Envoyer à Homebridge". Cliquez sur sauvegarder. Une fois sauvegardé (et le démon relancé), votre accessoire sera intégré ou supprimé de Homebridge.
 
 En cliquant sur l'équipement, vous verrez les types génériques utilisés pour la communication entre votre jeedom et Homebridge.
 
@@ -35,7 +35,7 @@ Pour les actions :
 image::../images/ypegeaction.png[]
 
 [IMPORTANT]
-Chaque équipement doit disposer d'au moins un type générique de type "info". S'il n'y a pas d'info, l'équipement ne sera pas disponible sur Homebridge.
+Chaque équipement doit disposer d'au moins un type générique de type "Etat". S'il n'y a pas d'Etat, l'équipement ne sera pas disponible sur Homebridge.
 Il faut une certaine cohérence dans le choix des types génériques. Dans le cas d'une lumière par exemple, vous devez avoir l'info "Lumière état" et les actions "Lumières bouton OFF" et "Lumière bouton ON". Si cette cohérence n'est pas respectée, l'équipement peut ne pas apparaître dans Homebridge.
 
 image::../images/ypegelumi.png[]
@@ -60,7 +60,7 @@ Le changement de nom Homebridge vous obligera à reconfigurer vos applications H
 * *PIN Homebridge* : Permet de personnaliser le code PIN Homebridge.
 
 [IMPORTANT]
-Les PIN suivants ne sont pas accéptés par Apple : 000-00-000, 111-11-111, 222-22-222 -> 999-99-999, 123-45-678, 876-54-321
+Les PIN suivants ne sont pas accéptés par Apple : 000-00-000, 111-11-111, 222-22-222 -> 999-99-999, 123-45-678, 876-54-321. Son changement vous obligera à reconfigurer vos applications Homekit
 
 * *Réparer* :  Permet une réparation de Homebridge en modifiant les identifiants. 
 
@@ -75,15 +75,13 @@ A n'effectuer que sur conseil d'un membre du forum et il faut retirer le bridge 
 * *Plateforme Homebridge supplémentaire* : Permet de rajouter manuellement un équipement.
 
 [IMPORTANT]
-Réservé à un public averti. Il n'y aura aucun support pour cette partie.
+Réservé à un public averti. Il n'y aura aucun support pour cette partie. (permet par exemple d'ajouter des cameras à Homebridge)
 
 Une fois les cases *Utilisateur, nom Homebridge et PIN Homebridge* correctement renseignées, finaliser la configuration en cliquant sur **sauvegarder**.
 
 === Ajout de jeedom dans homekit
 
 Il existe plusieurs applications sur l'appstore compatible homekit. Nous allons utiliser l'application "domicile".
-
-
 
 Pour inclure jeedom, ouvrir l'application "Maison" et cliquez sur ajouter un accessoire.
 
@@ -103,7 +101,7 @@ L'exemple a été réalisée avec la version beta d'IOS 11. Sur IOS 10 la procé
 image::../images/home-4.jpg[]
 
 [IMPORTANT]
-Comme expliquez plus haut dans la doc, Homebridge n'est pas reconnu officiellement par Apple. Un message vous indique que l'accessoire n'est pas cetifié.  Cliquez sur "poursuivre l'ajout".
+Comme expliqué plus haut dans la doc, Homebridge n'est pas reconnu officiellement par Apple. Un message vous indique que l'accessoire n'est pas cetifié.  Cliquez sur "poursuivre l'ajout".
 
 image::../images/home-5.jpg[]
 
